@@ -1,0 +1,4 @@
+build/
+.gradle/
+web-old/
+hs_err_pid*.log

@@ -1,0 +1,26 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+def jme = '3.9.0-stable'
+
+dependencies {
+    implementation "org.jmonkeyengine:jme3-core:$jme"
+    implementation "org.jmonkeyengine:jme3-desktop:$jme"
+    implementation "org.jmonkeyengine:jme3-effects:$jme"
+    runtimeOnly "org.jmonkeyengine:jme3-lwjgl3:$jme"
+}
+
+application {
+    mainClass = 'planets.Main'
+    applicationDefaultJvmArgs = ['-Xmx1g']
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
