@@ -75,6 +75,12 @@ To build the Windows zip yourself, run `package-windows.ps1` in PowerShell.
 The code is four Java files in `src/main/java/planets`, built with
 [jMonkeyEngine](https://jmonkeyengine.org/) 3.9.
 
+## Support
+
+If your kids had fun with this, you can [buy me a coffee on Ko-fi](https://ko-fi.com/arthur9366) ☕
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/arthur9366)
+
 ## License
 
 [MIT](LICENSE). jMonkeyEngine and LWJGL, which the download includes, are under their own
